@@ -6,6 +6,8 @@ h1{
 nav{
 
     margin: 50px;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -24,5 +26,39 @@ li{
     border-right: 1px solid #aaa;
     padding: 0 20px;
 
+}
+
+li:first-child {
+
+    border-left: 1px solid #aaa;
+
+}
+
+
+li a{
+
+    color: #ccc;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Arvo', serif;
+
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+}
+
+li a:hover{
+
+color: #666;
+
+}
+
+li.active a {
+
+    font-weight: bold;
+    color: #333;
 
 }
