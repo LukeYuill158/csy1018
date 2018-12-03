@@ -62,3 +62,33 @@ li.active a {
     color: #333;
 
 }
+
+.div {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+div {
+    column-count: 3;
+    column-gap: 40px;
+    column-width: 300px;
+    column-rule: solid;
+    padding: 25px;
+    text-align: justify;
+}
+
+h2 {
+
+    font-family: 'Arvo', serif;
+    text-align: center;
+
+}
+
+img{
+
+    object-fit: contain;
+    max-width: 100%;
+
+}
+
