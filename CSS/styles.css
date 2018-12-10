@@ -97,3 +97,73 @@ footer{
     text-align: center;
 
 }
+
+@media (max-width: 733px){
+
+    nav{
+
+        
+        font-size: small;
+        
+
+    }
+
+}
+
+@media (max-width: 666px){
+
+
+    nav{
+
+
+        margin: 25px;
+
+
+    }
+
+
+}
+
+@media (max-width: 617px){
+
+
+    nav{
+
+
+        margin: 10px;
+
+
+    }
+
+
+}
+
+@media (max-width: 586px){
+
+
+    nav{
+
+
+        margin: 5px;
+
+
+    }
+
+ 
+}
+
+@media (max-width: 320px){
+
+
+
+    nav{
+
+
+        font-size: large;
+
+
+    }
+
+
+
+}
