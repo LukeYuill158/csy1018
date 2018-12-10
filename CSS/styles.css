@@ -63,13 +63,8 @@ li.active a {
 
 }
 
-.div {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
-
 div {
+    display: flex;
     column-count: 3;
     column-gap: 40px;
     column-width: 300px;
