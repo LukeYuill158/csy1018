@@ -1,3 +1,13 @@
+header{
+
+
+    text-align: center;
+    font-family: 'Arvo', serif;
+    padding-bottom: 0%;
+
+
+}
+
 h1{
     text-align: center;
     font-family: 'Arvo', serif;
@@ -169,6 +179,7 @@ footer{
 
     display: flex;
     flex-direction: row;
+
 
 
 }
