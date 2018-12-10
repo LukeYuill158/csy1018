@@ -63,12 +63,6 @@ li.active a {
 
 }
 
-.div {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
-
 div {
     column-count: 3;
     column-gap: 40px;
@@ -164,6 +158,15 @@ footer{
 
     }
 
+
+
+}
+
+.rows{
+
+
+    display: flex;
+    flex-direction: row;
 
 
 }
