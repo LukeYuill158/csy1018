@@ -63,11 +63,12 @@ li.active a {
 
 }
 
-div {
-    column-count: 3;
-    column-gap: 40px;
-    column-width: 300px;
-    column-rule: solid;
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
     padding: 25px;
     text-align: justify;
 }
@@ -168,5 +169,23 @@ footer{
     display: flex;
     flex-direction: row;
 
+
+}
+
+table, tr, td{
+
+    border: 1px solid black;
+
+}
+
+.col{
+
+    border-right: solid;
+
+}
+
+.col:last-child{
+
+    border-right: none;
 
 }
